@@ -20,3 +20,7 @@
 .contacts li a.instagram:hover {
     color: #DD2A7B;
 }
+
+small {
+    font-weight: bolder;
+}
