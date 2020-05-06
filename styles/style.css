@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Kashima';
+    src: url("../fonts/Kashima.otf") format("opentype");
+}
+
+#avatar {
+    border-radius: 50%;
+    width: 12rem;
+    height: 12rem;
+    max-width: 12rem !important;
+}
+
+#background-circle {
+    border-radius: 50%;
+    background-color: #7f0000;
+    opacity: 0.5;
+    position: absolute;
+    width: 12rem;
+    height: 12rem;
+}
+
+.japanese {
+    font-family: Kashima;
+}
+
+#name {
+    font-size: 3rem;
+    color: black;
+}
+
+.contacts li a.twitter:hover {
+    color: #08A0E9;
+}
+
+.contacts li a.instagram:hover {
+    color: #DD2A7B;
+}
+
+small {
+    font-weight: bolder;
+}
+
+#win-quote {
+    color: white;
+    font-family: Kashima;
+    font-size: 4rem;
+    display: none;
+}
+
+.speech-bubble {
+    padding: 1rem;
+    position: relative;
+    background: #7f0000;
+    border-radius: .4em;
+    margin-bottom: 10rem;
+}
+
+.speech-bubble:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 0.406em solid transparent;
+    border-right-color: #7f0000;
+    border-left: 0;
+    border-top: 0;
+    margin-top: -0.203em;
+    margin-left: -0.406em;
+}
+
+.under {
+    margin-top: 2rem;
+}
+
+#glasses {
+    position: absolute;
+    width: 8rem;
+    right: 3rem;
+    top: 4.5rem;
+}
+
+.content-wrapper {
+    width: 12rem;
+    height: 12rem;
+    position: relative;
+}
+
+#triangle {
+    width: 100%;
+    height: 30rem;
+    transform: skewY(-5deg);
+    position: absolute;
+    top: -200px;
+    background-color: #7f0000;
+    z-index: -1;
+}
