@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Kashima';
+    src: url("../fonts/Kashima.otf") format("opentype");
+}
+
 #avatar {
     border-radius: 50%;
     width: 12rem;
@@ -11,6 +16,15 @@
     position: absolute;
     width: 12rem;
     height: 12rem;
+}
+
+.japanese {
+    font-family: Kashima;
+}
+
+#name {
+    font-size: 3rem;
+    color: black;
 }
 
 .contacts li a.twitter:hover {
