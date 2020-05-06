@@ -7,7 +7,7 @@
   <link rel="icon" type="image/x-icon" href="avatar.png">
   <link rel="stylesheet" href="https://volodymyrkushnir.com/assets/stylesheets/base.css">
   <link rel="stylesheet" type="text/css" href="styles/style.css">
-
+  <script src="scripts/script.js"></script>
 </head>
 
 <body>
@@ -16,14 +16,17 @@
       <div class="page" style="border-color: #7f0000;">
         <div class="stackable grid">
           <div class="row">
-            <div class="three wide center aligned column">
-              <div class="avatar-wrapper">
-                <div id="background-circle" class="avatar portrait"> </div>
-                <object id="avatar" class="avatar portrait" data="assets/avatar.png" role="img"
-                  aria-label="My profile picture"></object>
+            <div class="four wide center aligned column">
+              <div class="avatar-wrapper" onmouseover="onAvatarMouseOver()" onmouseout="onAvatarMouseOut()">
+                <div class="content-wrapper">
+                  <div id="background-circle" class="avatar portrait"> </div>
+                  <object id="avatar" class="avatar portrait" data="assets/avatar.png" role="img"
+                    aria-label="My profile picture"></object>
+                  <object id="glasses" data="assets/glasses.png" role="img" aria-label="glasses"></object>
+                </div>
               </div>
             </div>
-            <div class="thirteen wide column">
+            <div class="twelve wide column">
               <div class="stackable grid">
                 <div class="sixteen wide column">
                   <h1 class="name">
@@ -75,7 +78,8 @@
                   <div class="divider"></div>
                 </div>
                 <div class="sixteen wide column">
-                  <h2>Résumé</h2>
+                  <h1 id="win-quote" class="speech-bubble">Metsu! Hadoken! </h1>
+                  <h2 class="under">Résumé</h2>
                   <p>&mdash; I do not compete with others, the only competition that challenges me is myself. As a
                     fighter,
                     friend and an employee I am known as contemplative, tortured and driven.</p>
