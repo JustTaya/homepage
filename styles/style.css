@@ -20,7 +20,7 @@
 }
 
 .japanese {
-    font-family: Kashima;
+    font-family: Kashima, sans-serif;
 }
 
 #name {
@@ -29,11 +29,11 @@
 }
 
 .contacts li a.twitter:hover {
-    color: #08A0E9;
+    color: #08a0e9;
 }
 
 .contacts li a.instagram:hover {
-    color: #DD2A7B;
+    color: #dd2a7b;
 }
 
 small {
@@ -42,7 +42,7 @@ small {
 
 #win-quote {
     color: white;
-    font-family: Kashima;
+    font-family: Kashima, sans-serif;
     font-size: 4rem;
     display: none;
 }
@@ -51,11 +51,11 @@ small {
     padding: 1rem;
     position: relative;
     background: #7f0000;
-    border-radius: .4em;
+    border-radius: 0.4em;
     margin-bottom: 10rem;
 }
 
-.speech-bubble:after {
+.speech-bubble::after {
     content: '';
     position: absolute;
     left: 0;
