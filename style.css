@@ -1,0 +1,26 @@
+#avatar {
+    border-radius: 50%;
+    width: 12rem;
+    height: 12rem;
+}
+
+#background-circle {
+    border-radius: 50%;
+    background-color: #7f0000;
+    opacity: 0.5;
+    position: absolute;
+    width: 12rem;
+    height: 12rem;
+}
+
+.contacts li a.twitter:hover {
+    color: #08A0E9;
+}
+
+.contacts li a.instagram:hover {
+    color: #DD2A7B;
+}
+
+small {
+    font-weight: bolder;
+}
