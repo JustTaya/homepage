@@ -7,6 +7,7 @@
     border-radius: 50%;
     width: 12rem;
     height: 12rem;
+    max-width: 12rem !important;
 }
 
 #background-circle {
@@ -71,4 +72,19 @@ small {
 
 .under {
     margin-top: 2rem;
+}
+
+#glasses {
+    position: absolute;
+    width: 8rem;
+    right: 3rem;
+    top: 4.5rem;
+    /* right: 2.5rem;
+    top: 5rem; */
+}
+
+.content-wrapper {
+    width: 12rem;
+    height: 12rem;
+    position: relative;
 }
